@@ -4,11 +4,12 @@
 	icon_state = "vox_marsmud"
 	icon = 'icons/mob/mobs-voxy.dmi'
 
-	maxHealth = 75
-	health = 75
+	maxHealth = 50 //No. This is being nerfed until Niko fixes his AI stuff
+	health = 50 //Ditto
 
 	faction = "vox_tribe" //In case of different tribes
-	turns_per_move = 5
+	turns_per_move = 3 //Ditto. No.
+	move_to_delay = 3 //This is added to prevent them from being menaces to EVERYONE
 	see_in_dark = 10
 	speak_emote = list("grumbles")
 	emote_see = list("looks around for a target.")
